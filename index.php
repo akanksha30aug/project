@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Page</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+     <h1 class="text-center">SAITM</h1>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="register.php">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Login.php">Login</a>
+        </li>    
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="hostel-1-650.jpg" alt="Los Angeles" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="hostel-1-650.jpg" alt="Chicago" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="hostel-1-650.jpg" alt="New York" class="d-block w-100">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<!-- <img src="hostel-1-650.jpg" class="img-fluid border border-2 border-dark "> -->
+    <div class="container">
+           
+            
+            <h2 class="text-center mt-5">ABOUT US</h2>
+            <div class="border border-danger border-2 mb-5 mt-5 p-4">
+
+                <p class="text-warning">Approved by AICTE, Govt. of India, New Delhi.
+Affiliated to Maharshi Dayanand University.
+'A' Grade state university, accredited by N Approved by AICTE, Govt. of India, New Delhi.
+Affiliated to Maharshi Dayanand University.
+'A' Grade state university, accredited by NApproved by AICTE, Govt. of India, New Delhi.
+Affiliated to Maharshi Dayanand University.
+'A' Grade state university, accredited by NApproved by AICTE, Govt. of India, New Delhi.
+Affiliated to Maharshi Dayanand University.
+'A' Grade state university, accredited by NApproved by AICTE, Govt. of India, New Delhi.
+Affiliated to Maharshi Dayanand University.
+'A' Grade state university, accredited by NApproved by AICTE, Govt. of India, New Delhi.
+Affiliated to Maharshi Dayanand University.
+'A' Grade state university, accredited by NApproved by AICTE, Govt. of India, New Delhi.
+Affiliated to Maharshi Dayanand University.
+'A' Grade state university, accredited by N</p>
+            </div>
+                <h2 class="text-center">SERVICES</h2>
+            <div class="row mb-5">
+                <div class="col-md-4 border p-3">
+                    <img src="hostel-1-650.jpg" class="img-fluid border border-2 border-dark rounded">
+                    <p>Approved by AICTE, Govt. of India, New Delhi.
+Affiliated to Maharshi Dayanand University.
+'A' Grade state university, accredited by N Approved by AICTE, Govt. of India, New Delhi.
+Affiliated to Maharshi Dayanand University.</p>
+                </div>
+                 <div class="col-md-4 border p-3">
+                    <img src="hostel-1-650.jpg" class="img-fluid border border-2 border-dark rounded">
+                     <p>Approved by AICTE, Govt. of India, New Delhi.
+Affiliated to Maharshi Dayanand University.
+'A' Grade state university, accredited by N Approved by AICTE, Govt. of India, New Delhi.
+Affiliated to Maharshi Dayanand University.</p>
+                </div>
+                 <div class="col-md-4 border p-3">
+                    <img src="hostel-1-650.jpg" class="img-fluid border border-2 border-dark rounded">
+                     <p>Approved by AICTE, Govt. of India, New Delhi.
+Affiliated to Maharshi Dayanand University.
+'A' Grade state university, accredited by N Approved by AICTE, Govt. of India, New Delhi.
+Affiliated to Maharshi Dayanand University.</p>
+                </div> 
+
+            </div>
+
+            <h2 class="text-center">CONTACT US</h2>
+            <div class="row  p-5">
+                <div class="col-md-4">
+                    <h2>Address:</h2>
+                    <span class="fs-5">
+                        <i class="fa fa-globe "></i> Office
+St. Andrews, 9th Avenue, <br>IP extention, Patparganj Delhi-110092
+</span><br>
+ <i class="fa fa-envelope"></i> Email: abc@gmail.com
+ <i class="fa fa-phone"></i> 67776767
+
+</span>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h2>Contact Us:</h2>
+                    <table class="table">
+                        <tr>
+                            <td>Name</td>
+                            <td><input type="text" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td><input type="email" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button class="btn btn-success">SUBMIT</button></td>
+                            
+                        </tr>
+                    </table>
+
+                </div>
+                <div class="col-md-4">
+
+                </div>
+            </div>
+            
+<!-- <button class="btn btn-success">Button</button>
+<button class="btn btn-danger">Button</button>
+<button class="btn btn-info">Button</button>
+<button class="btn btn-primary">Button</button>
+<button class="btn btn-secondary">Button</button>
+<button class="btn btn-dark">Button</button>
+<button class="btn btn-warning">Button</button>
+<div class="row">
+    <div class="col-6">
+           <img src="hostel-1-650.jpg" class="img-fluid border border-2 border-dark rounded">
+    </div>
+    <div class="col-6">
+           <img src="hostel-1-650.jpg" class="img-fluid border border-2 border-dark rounded">
+    </div> -->
+
+</div>
+
+
+    </div>
+   
+
+
+</body>
+</html>
